@@ -1,0 +1,1 @@
+client 文件夹是客户端代码，C++/Qt编写，server是服务端代码，C++/Lua编写，运行于Linux。
