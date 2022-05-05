@@ -5,7 +5,7 @@ SQL_USE::SQL_USE(){
     //MYSQL conn;
     //int res;
     mysql_init(&conn);
-    if(mysql_real_connect(&conn,"localhost","root","200514why","his",0,NULL,CLIENT_FOUND_ROWS)){
+    if(mysql_real_connect(&conn,"localhost","root","*","his",0,NULL,CLIENT_FOUND_ROWS)){
         printf("successful! connect to mysql\n");
     }
     else{
